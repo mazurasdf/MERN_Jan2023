@@ -3,7 +3,7 @@ with your gracious host: @mazurasdf
 [link to youtube playlist here](https://www.youtube.com/playlist?list=PLBZwc4aWOVuISkhL3-5S_RpKF0zl3XY5o)
 
 ## Here's some handy information for this repo:
-* in your terminal of choice, run `git clone https://github.com/mazurasdf/mern-jan2023.git`
+* in your terminal of choice, run `git clone https://github.com/mazurasdf/MERN_Jan2023.git`
 * cd into the project of your choice
 ##### if the project is react only
 1. run `npm install` to install the dependencies of the project
