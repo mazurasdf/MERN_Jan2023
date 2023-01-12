@@ -12,17 +12,22 @@ class TestComp extends Component{
     //     console.log("clicked button");
     //     this.state.count++;
     // }
+    increaseCount(){
+        console.log("clicked button");
+        // this.state.count++;
+        this.setState({count: this.state.count + 1})
+    }
 
     render(){
-        const increaseCount =()=>{
-            console.log("clicked button");
-            // this.state.count++;
-            this.setState({count: this.state.count + 1})
-        }
+        // const increaseCount =()=>{
+        //     console.log("clicked button");
+        //     // this.state.count++;
+        //     this.setState({count: this.state.count + 1})
+        // }
         return(
             <div className="box">
                 <h1>Welcome, {this.props.name}. Clicked {this.state.count} times</h1>
-                <button onClick={increaseCount}>click me!</button>
+                <button onClick={this.increaseCount}>click me!</button>
             </div>
         )
     }
