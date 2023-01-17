@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.albumBox{
+  width: 225px;
+  min-height: 300px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 5px;
+}
+
+.albumBox > img{
+  width: 100%;
+}
