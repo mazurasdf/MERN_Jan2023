@@ -18,11 +18,22 @@ const Form = (props) => {
     const onSubmitHandler = (event) => {
         event.preventDefault();
         
+        form.score = 0;
+
         // console.log(props.albums);
         props.setAlbums([
             ...props.albums,
             form
         ]);
+
+        setForm({
+            title: "",
+            artist: "",
+            year: "",
+            imgURL: ""
+        });
+
+        event.target.reset();
     }
 
     return(
